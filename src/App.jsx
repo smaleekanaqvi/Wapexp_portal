@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { auth } from "./firebase";
-import Login from './Login';
+import Login from './login';
 import Signup from './Signup';
 import Dashboard from './Dashboard';
 import ForgotPassword from './ForgotPassword'; // ForgotPassword ko import karein
